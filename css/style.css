@@ -9911,10 +9911,16 @@ textarea.form-control {
   margin-bottom: 0;
   padding-bottom: 0;
   display: flex;
-  justify-content: center;
-  align-items: center;
   overflow: hidden;
 }
+.home-c1{
+  margin: 100px;
+  
+}
+.img-1{
+  width: 400px;
+}
+
 
 /* Background image with blur effect */
 #home-section::before {
@@ -9927,7 +9933,6 @@ textarea.form-control {
   background-image: url('/images/bg_1.jpg');
   background-size: cover;
   background-position: center;
-  filter: blur(8px);
   z-index: -1;
 }
 

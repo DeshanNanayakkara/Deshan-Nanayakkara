@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deshan | Software Engineer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    .Hbody {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(120deg, #cfd7eb, #fefefe);
+      color: rgb(0, 0, 0);
+      overflow-x: hidden;
+    }
+
+    .Hheader {
+      text-align: center;
+      padding: 50px 20px;
+      animation: HfadeDown 1.5s ease-in-out;
+    }
+
+    .Hheader h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    .Hheader p {
+      font-size: 1.2rem;
+      color: #000000;
+    }
+
+    .Hphoto-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+      animation: HfadeUp 2s ease-in-out;
+    }
+
+    .Hphoto-container img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #c3e7f6;
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+    }
+
+    .Hphoto-container img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 30px #38bdf8;
+    }
+
+    .Habout {
+      max-width: 600px;
+      margin: 40px auto;
+      text-align: center;
+      line-height: 1.6;
+      animation: HfadeUp 2.5s ease-in-out;
+    }
+
+    .Hbtn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #c2dde9;
+      color: #0f172a;
+      font-weight: bold;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background 0.3s ease, transform 0.3s ease;
+    }
+
+    .Hbtn:hover {
+      background: #d6eefa;
+      transform: scale(1.05);
+    }
+
+    @keyframes HfadeDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes HfadeUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .Hfooter {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #000000;
+    }
+
+    /* Responsive styles */
+    @media (max-width: 600px) {
+      .Hheader {
+        padding: 30px 10px;
+      }
+      .Hheader h1 {
+        font-size: 1.6rem;
+      }
+      .Hphoto-container img {
+        width: 120px;
+        height: 120px;
+      }
+      .Habout {
+        margin: 20px 8px;
+        font-size: 1rem;
+      }
+      .Hbtn {
+        width: 100%;
+        font-size: 1rem;
+        padding: 12px 0;
+      }
+    }
+  </style>
+</head>
+<body class="Hbody">
+  <header class="Hheader">
+    <h1>Hi, I'm Deshan 👋</h1>
+    <p>Passionate Software Engineer | Java, Spring, Web Development</p>
+  </header>
+
+  <div class="Hphoto-container">
+    <img src="/images/IMG_1236.JPG" alt="Deshan">
+  </div>
+
+  <section class="Habout">
+    <p>
+      I design and build smart, scalable software solutions. With a strong focus on Java and modern web development, I transform ideas into high-quality, user-friendly applications.
+    </p>
+    <a href="#about-section" class="Hbtn">See My Work</a>
+  </section>
+
+  <footer class="Hfooter">
+    &copy; 2025 Deshan | All Rights Reserved
